@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=3, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- reset style  -->
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- custom style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+
+    <!-- font awsome  -->
+    <script src="https://kit.fontawesome.com/e64f7ef8dd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="nav-logo">
+                <p>AX<span>IT</span></p>
+            </div>
+
+            <div class="nav-items">
+                <a href="#">Features</a>
+                <a href="#">About</a>
+                <a href="#">Pricing</a>
+                <a href="#">Reviews</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="h-overlay">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-7 col-sm-10 h-left">
+                        <h1>LIDER<span>CON</span></h1>
+                        <h2>GRUP DE AFACERI LIDERCON</h2>
+                        <div class="h-divider"></div>
+                        <h3>Grupul de afaceri LIDERCON este o companie europeană din sectorul auto, de nivel mondial,
+                            bine specializată şi cu sisteme tehnologice constante. Grupul de afaceri LIDERCON lucrează
+                            cu cele mai bune mijloace şi echipamente tehnice în diferite linii de afaceri.</h3>
+                    </div>
+
+                    <div class="tablet-invisible offset-md-1 col-md-4 h-right">
+                        <h1>Try Your <span>FREE</span> Trial Today</h1>
+
+                        <form action="">
+                            <label for="h-name"></label>
+                            <input id="h-name" type="text" placeholder="Name">
+
+                            <label for="h-email"></label>
+                            <input id="h-email" type="email" placeholder="Email">
+
+                            <label for="h-password"></label>
+                            <input id="h-password" type="password" placeholder="Password">
+                        </form>
+
+                        <div class="h-submit">
+                            <button class="d-btn" type="submit">Get Started</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="feature f-1">
+        <div class="container">
+
+            <!-- tabs -->
+            <div class="f-tabs">
+                <p class="active-tab tab" onclick="toggleTabs(0)">TAB 1</p>
+                <p class="tab" onclick="toggleTabs(1)">TAB 2</p>
+                <p class="tab" onclick="toggleTabs(2)">TAB 3</p>
+            </div>
+
+            <!-- feature text -->
+            <div class="content-wrap">
+                <div class="f-text">
+                    <h1 class="feat-title">Staţii de inspecţie tehnică (ITP)</h1>
+                    <h2 class="feat-body">Construirea sub chei şi instalarea staţiilor de inspecţie tehnică (ITP), fixe
+                        sau mobile, în orice ţară în care sunt necesare serviciile noastre.</h2>
+
+                </div>
+
+                <!-- feature img -->
+                <div class="f-img">
+                    <img class="tablet-invisible feat-img" src="./img/landing/4.jpg" height="260px" alt="feature img 1">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="feature f-2">
+        <div class="container">
+
+            <div class="content-wrap">
+
+                <!-- feature text -->
+                <div class="f-text">
+                    <h1 class="feat-title">REVIZIA TEHNICĂ</h1>
+                    <div class="f-divider"></div>
+
+                    <div class="subFeatures">
+                        <div class="subFeature">
+                            <span><i class="fas fa-cloud-upload-alt fa-xs"></i></span>
+                            <div class="wrap-text">
+                                <h3>Ce este revizia tehnică?</h3>
+                                <p>Inspecţia tehnică periodică a vehiculului este un mijloc important pentru verificarea
+                                    condiţiilor tehnice, detectarea defectelor sau anomaliile care reprezentă elementele
+                                    mecanice. Obiectivul principal al ITP este constatarea şi verificările vehiculelor
+                                    în corespunderea sa cu cerinţele minime stabilite de legislaţia în vigoare privind
+                                    securitatea la trafic.</p>
+                            </div>
+                        </div>
+                        <div class="subFeature">
+                            <span><i class="fas fa-cloud-download-alt fa-xs"></i></span>
+                            <div class="wrap-text">
+                                <h3>În ce constă revizia tehnică?</h3>
+                                <p>ITP constă dintre-un examen care este necesar ca vehiculele să verifice sistemele
+                                    principale de funcţionare care sunt obligate de a corespunde parametrilor minime al
+                                    legislaţiilor în vigoare cu privire la securitatea la trafic.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- feature img -->
+                <div class="f-img">
+                    <img src="./img/landing/3.jpg" height="330px" alt="feature img 1">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="feature f-3">
+        <div class="container">
+
+            <!-- feature text -->
+            <div class="content-wrap">
+                <div class="f-text">
+                    <h1 class="feat-title">Poziţia şi Experienţa</h1>
+                    <div class="f-divider"></div>
+                    <h2>Experienţa noastră, de 26 de ani, în instalarea utilajelor si plantelor de inspecţie tehnică a
+                        vehiculelor în Europa, America Centrală, America de Sud, Africa şi Asia, ne-a permis obţinerea
+                        unui număr mare de clienţi care demonstrează şi garantează gradul înalt de tehnologie si
+                        garanţie a produselor noastre.</h2>
+
+                </div>
+
+                <!-- feature img -->
+                <div class="f-img">
+                    <!-- <img src="./img/feature.jpg" alt="feature img 1"> -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="why">
+        <div class="container">
+
+            <!-- why header -->
+            <div class="section-header">
+                <h1>Serviciile noastre</h1>
+                <div class="f-divider"></div>
+                <h2></h2>
+            </div>
+
+            <!-- why grid -->
+            <div class="why-grid">
+
+                <div class="w-item">
+                    <span><i class="far fa-lightbulb fa-lg"></i></span>
+                    <h3>REVIZIUNEA INTEGRALĂ A VEHICULELOR</h3>
+                    <h4>Realizarea sa este un mijloc important pentru a verifica condiţiile mecanice, tehnice şi de
+                        securitate a vehiculului si a ocupanților acesteia.</h4>
+                </div>
+
+                <div class="w-item">
+                    <span><i class="far fa-keyboard fa-md"></i></span>
+                    <h3>CONTROL ASUPRA PARCULUI AUTOMOBILISTIC</h3>
+                    <h4>Datele reale privind starea tehnică a vehiculelor inspectate.</h4>
+                </div>
+
+                <div class="w-item">
+                    <span><i class="fas fa-bolt fa-lg"></i></span>
+                    <h3>COORDINAREA CU AUTORITAŢILE</h3>
+                    <h4>Posibilitate de coordonare si control cu autorităţile în valabilitatea certificatelor de
+                        inspecţie şi a altor acte normative.</h4>
+                </div>
+
+                <div class="w-item">
+                    <span><i class="fas fa-bolt fa-lg"></i></span>
+                    <h3>REDUCEREA CONTAMINĂRII</h3>
+                    <h4>Vehiculele care au trecut reviziunea tehnică contamina mult mai puțin atmosfera si asta este un
+                        adaus mare pentru sănătatea fiecarui.</h4>
+                </div>
+
+                <div class="w-item">
+                    <span><i class="fas fa-bolt fa-lg"></i></span>
+                    <h3>FORMARE</h3>
+                    <h4>Din 2010, Lidercon, a început o campanie de învățământ in formare a personalului în instituţiile
+                        de învăţământ din Lima.</h4>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+
+            <div class="section-header">
+                <h1>Reviziuni tehnice </h1>
+                <div class="f-divider"></div>
+            </div>
+
+            <div class="pricing-grid">
+
+                <div class="option no-pro">
+                    <h1>Reviziunea completă <br> a vehiculului</h1>
+                    <div class="divider">
+
+                    </div>
+                    <div class="options">
+                        <p>Plăcile</p>
+                        <p>Detector de jocuri în articulaţii</p>
+                        <p>Pierderea de lichide</p>
+                        <p>Funcţionarea</p>
+                        <p>Intensitatea luminii</p>
+                        <p>Alinierea</p>
+                        <p>Schimbul de motor</p>
+                        <p>Numărul de suport si şasiu</p>
+                        <p>Proba de gaze</p>
+                    </div>
+                </div>
+                <!-- ----------------------- -->
+                <div class="option no-pro">
+                    <h1>Pentru ce sunt necesare <br> reviziile tehnice?</h1>
+                    <div class="divider">
+
+                    </div>
+                    <div class="options">
+                        <p>Identificarea vehiculului</p>
+                        <p>Aspectul exterior, caroseria şi şasiul</p>
+                        <p>Aspectul interior</p>
+                        <p>Sistemul de iluminare şi semnalizare</p>
+                        <p>Emisiile contaminante</p>
+                        <p>Sistemul de Frănare</p>
+                        <p>Sistemul de direcţii</p>
+                        <p>Axe, roţi, anvelope, suspensie</p>
+                    </div>
+                </div>
+
+                <div class="option no-pro">
+                    <h1>Obiectivele <br> obţinute</h1>
+                    <div class="divider">
+
+                    </div>
+                    <div class="options">
+                        <p>Aplicarea sistemului de reviziune tehnică de vehicule.</p>
+                        <p>Adaptarea la Normele Existente</p>
+                        <p>Coordonarea cu Autorităţile</p>
+                        <p>Proiectarea şi construcţia de plante ITP</p>
+                        <p>Realizarea inspecțiilor</p>
+                        <p>Stimularea activităţii de afaceri legate de automobil</p>
+                        <p>Actualizarea parcului Automobilistic</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- <section class="testimonials">
+        <div class="container">
+
+            <div class="section-header">
+                <h1>WHAT OUR CUSTOMERS ARE SAYINg</h1>
+                <div class="f-divider"></div>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            </div>
+
+            <div class="t-grid">
+
+                <div class="testimony">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.</p>
+
+                    <div class="profile">
+                        <div class="profile-img"></div>
+                        <div class="profile-text">
+                            <h1>Jeremy H.</h1>
+                            <h2>Manager</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimony">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.</p>
+
+                    <div class="profile">
+                        <div class="profile-img"></div>
+                        <div class="profile-text">
+                            <h1>John S.</h1>
+                            <h2>Freelancer</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimony tablet-invisible">
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
+                        quo suscipit.</p>
+
+                    <div class="profile">
+                        <div class="profile-img"></div>
+                        <div class="profile-text">
+                            <h1>Jill P.</h1>
+                            <h2>Photographer</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+    <section class="download">
+        <div class="h-overlay">
+
+            <div class="container">
+
+                <div class="download-header" style="margin-bottom: 100px;">
+                    <h1>Grupul nostru de Afaceri</h1>
+                    <div class="d-divider"></div>
+                    <h2>Construirea, instalarea şi punerea în funcţiune a staţiilor de inspecţie tehnică (ITP) prin
+                        întreaga lume. Punem la dispoziţia dumneavoastră consultaţii, asistenţă tehnică şi de colaborare
+                        în implementarea reţelelor de calculatore(software şi hardware) şi utilaje respective pentru
+                        efectuarea controlului general al datelor din staţiile (ITP).</h2>
+                </div>
+
+                <div class="d-flex justify-content-center tablet-btn">
+                    <!-- <button class="d-btn">Download</button> -->
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+
+            <div class="section-header">
+                <h1>contact us</h1>
+                <div class="f-divider"></div>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            </div>
+
+            <form action="">
+
+                <!-- contact grid -->
+                <div class="contact-grid">
+
+                    <div class="form-infos">
+                        <input type="text" name="name" id="name" placeholder="Name">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                    </div>
+
+                    <div class="form-message">
+                        <input type="text" name="message" id="message" placeholder="Message">
+                    </div>
+
+                </div>
+
+                <!-- submit btn -->
+                <button class="contact-submit d-flex justify-content-center" type="submit">Send Message</button>
+
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <!-- <div class="footer-media">
+            <a href=""><i class="fab fa-facebook-f fa-lg"></i></a>
+            <a href=""><i class="fab fa-twitter img-left fa-lg"></i></a>
+            <a href=""><i class="fab fa-google-plus img-left fa-lg"></i></a>
+            <a href=""><i class="fab fa-pinterest img-left fa-lg"></i></a>
+            <a href=""><i class="fab fa-instagram img-left fa-lg"></i></a>
+            <a href=""><i class="fab fa-stumbleupon img-left fa-lg"></i></a>
+            <a href=""><i class="fas fa-rss img-left fa-lg"></i></a>
+        </div> -->
+        <p>&copy; 2020 - Bontean Evelyn David</p>
+    </footer>
+
+    <script src=" https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

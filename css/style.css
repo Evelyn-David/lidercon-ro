@@ -1,0 +1,754 @@
+/* navigation -------------------------------------------- */
+nav{
+    background-color: #000000;
+    height: 70px;
+}
+
+nav .nav-logo{
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+nav .nav-logo span{
+    font-weight: 300;
+    color: #ff8b38;
+}
+
+nav .nav-items{
+    float: right;
+    padding-top: 15px;
+}
+
+nav .nav-items a{
+    font-size: 14px;
+    color: #b0b0b0;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: right;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+nav .nav-items a:hover{
+    color: #ffffff;
+}
+
+/* header -------------------------------------------- */
+header{
+    background: url('../img/bgHeader.jpg');
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 640px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.h-overlay{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+/* header left-side */
+.h-left{
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+.h-left h1{
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.h-left h1 span{
+    font-weight: 300;
+    color: #ff8b38;
+}
+
+.h-left h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.h-divider{
+    height: 2px;
+    width: 64px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.h-left h3{
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway";
+    margin-bottom: 45px;
+
+}
+
+.h-left button {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+
+    padding: 13px 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px #ffffff solid;
+}
+
+.h-left button:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/* header right-side */
+header .h-right{
+    padding: 0 !important;
+    margin-top: 140px;
+}
+
+.h-right h1{
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: 0;
+    padding: 16px 0;
+    background-color: #f5f5f5;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.h-right h1 span{
+    font-size: 20px;
+    color: #ff8b38;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.h-right form{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0 40px 48px 40px;
+}
+
+form input{
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #d4d4d4;
+
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"]{
+    padding: 15px 10px;
+}
+
+form input:focus,
+button{
+    outline: none;
+    border: 1px solid #ff8b38;
+
+}
+
+.h-submit{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    margin-top: 0;
+    width: 100%;
+    background-color: #ff9b51;
+    text-align: center;
+    padding: 16px 0;
+    
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.h-submit:hover{
+    background-color: #ff801e;
+}
+
+
+.h-right button{
+    color: #ffffff;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+/* social media -------------------------------------------- */
+.social-media{
+    font-family: "Open Sans";
+    box-shadow: 0px 1px 3px #00000054;
+}
+
+.social-media-text{
+    width: 30%;
+}
+
+.social-media-img{
+    width: 70%;
+}
+
+.social-media-text h1{
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+    margin-top: 22px;
+    margin-bottom: 6px;
+}
+
+.social-media-text h2{
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.social-media-img{
+    float: right;
+    margin-top: 30px;
+    text-align: end;
+}
+
+.social-media-img i{
+    color: #cccccc;
+    font-size: 46px;
+}
+
+.social-media-img a i.img-left{
+    margin-left: 46px;
+}
+
+.social-media-img i:hover{
+    color: rgb(107, 107, 107);
+}
+
+
+/* feature 1 -------------------------------------------- */
+
+.f-1,
+.f-2,
+.f-3{
+    height: 600px;
+    padding: 100px 0px 115px 0px;
+    font-family: "Open Sans";
+}
+
+.f-1,
+.f-3{
+    background-color: #f5f5f5;
+}
+
+.f-1 .content-wrap,
+.f-1 .f-text,
+.f-1 .f-img,
+.f-1 .f-tabs{
+    display: inline;
+}
+
+/* tabs */
+.f-1 .f-tabs{
+    float: left;
+}
+
+.f-1 .f-tabs .tab{
+    background-color: black;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    padding: 46px 0px;
+    margin: 0px 100px 1px 0px !important;
+    width: 110px;
+}
+
+.f-1 .f-tabs p.active-tab{
+    background-color: #ff8b38;
+}
+
+/* text */
+.f-1 .f-text{
+    float: left;
+    width: 400px;
+}
+
+.f-text h1{
+    font-size: 32px;
+    color: #000000;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
+.f-text h2{
+    font-size: 20px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+    padding-bottom: 14px;
+}
+
+.f-text button{
+    background-color: #ff8b38;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 12px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+/* img */
+.f-1 .f-img{
+    float: right;
+    padding-top: 25px;
+}
+
+/* feature 2 -------------------------------------------- */
+.f-2 .f-img,
+.f-2 .f-text{
+    display: inline;
+}
+
+.f-2 .f-img{
+    width: 480px;
+}
+
+.f-2 .f-text{
+    float: right;
+    width: 500px;
+}
+
+.f-divider{
+    height: 2px;
+    width: 64px;
+    background-color: #ff8b38;
+    margin-bottom: 30px;
+}
+
+.f-2 .f-text h1{
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+
+/* sub-features */
+.subFeatures{
+    margin-top: 34px;
+}
+
+.subFeature{
+    margin-bottom: 14px;
+}
+
+.subFeature span{
+    padding: 2px 10px 6px 10px;
+    border-radius: 50px;
+    border: 2px solid #ff8b38;
+    float: left;
+}
+
+.subFeatures i{
+    color: #ff8b38;
+}
+
+.subFeatures .wrap-text{
+    margin-left: 75px;
+
+}
+
+.subFeature h3{
+    font-size: 14px;
+    line-height: 17px;
+    color: #212121;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.subFeature p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+}
+
+/* feature 3 -------------------------------------------- */
+.f-3{
+    height: 550px;
+}
+
+.f-3 .f-img{
+    float: right;
+    width: 480px;
+    height: 320px;
+    background-image: url('../img/feature.jpg');
+    background-size: cover;
+    box-shadow: 0px 3px 50px rgba(0, 0, 0, 0.644);
+}
+
+
+.f-3 .f-text{
+    float: left;
+    width: 450px;
+    margin-right: 0px;
+}
+
+.f-3 .f-text h1{
+    margin-bottom: 0;
+    padding-bottom: 26px;
+}
+
+/* Why this is awsome -------------------------------------------- */
+.why{
+    text-align: center;
+    margin-top: 110px;
+    font-family: "Open Sans";
+}
+
+.section-header h1{
+    font-size: 36px;
+    line-height: 43px;
+    color: #212121;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.section-header .f-divider{
+    margin: auto;
+}
+
+.section-header h2{
+    margin-top: 25px;
+    margin-bottom: 80px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* why-grid */
+.why-grid{
+    display: grid;
+    grid-template-columns: .33fr .33fr .33fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-bottom: 100px;
+}
+
+.why-grid h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    font-weight: 700;
+}
+
+.why-grid h4{
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+}
+
+/* icons */
+
+.why-grid i{
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+/* pricing options -------------------------------------------- */
+.pricing{
+    background-color: #f5f5f5;
+    padding: 100px 0px;
+}
+
+.pricing-grid{
+    display: grid;
+    grid-template-columns: .33fr .33fr .33fr;
+    column-gap: 40px;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.pricing-grid .no-pro{
+    margin-top: 35px;
+}
+
+/* option */
+.option h1{
+    background-color: #333333;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 20px 0px;
+    margin-bottom: 1px;
+}
+
+.option .price{
+    background-color: #333333;
+    padding-top: 25px;
+    padding-bottom: 8px;
+}
+
+.price h1{
+    font-size: 35px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.price span{
+    font-size: 94px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.price h2{
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* divider */
+.option .divider{
+    background-color: #ff8b38;
+    height: 5px;
+}
+
+.option .divider-pro{
+    background-color: #ff8b38;
+    height: 40px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 8px;
+}
+
+/* options */
+.options p{
+    border-bottom: 1px solid #f5f5f5;
+    background-color: #ffffff;
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+/* testimonials -------------------------------------------- */
+.testimonials{
+    padding: 100px 0px;
+}
+
+.t-grid{
+    display: grid;
+    grid-template-columns: .33fr .33fr .33fr;
+    column-gap: 120px;
+    font-family: "Open Sans";
+    text-align: left;
+}
+
+.testimony p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878b;
+    background-color: #f5f5f5;
+
+    padding: 20px 14px 24px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.profile-img{
+    background-image: url('../img/profile.png');
+    background-position: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    float: left;
+}
+
+.profile-text{
+    margin-left: 100px;
+}
+
+.profile-text h1{
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+    padding-top: 15px;
+    margin-bottom: 4px;
+}
+
+.profile-text h2{
+    font-size: 14px;
+    color: #86878b;
+    font-weight: 400;
+}
+
+/* download -------------------------------------------- */
+.download{
+    background: url('../img/bgHeader.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.download-header{
+    color: #ffffff;
+}
+
+.download-header h1{
+    font-size: 36px;
+    line-height: 43px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+
+.download-header .d-divider{
+    height: 2px;
+    width: 64px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.download-header h2{
+    margin-top: 32px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    text-align: center;
+
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway";
+}
+
+.d-flex button{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    padding: 8px 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px #ffffff solid;
+    margin-bottom: 62px;
+}
+
+.d-flex button:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/* contact -------------------------------------------- */
+.contact{
+    padding-top: 100px;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    column-gap: 54px;
+}
+
+.contact-grid input{
+    margin: 15px 0px;
+    color: #d6d6d6 !important;
+}
+
+#message{
+    padding-bottom: 144px;
+}
+
+.contact-submit{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway";
+    background-color: #ff9b51;
+    padding: 14px 20px 10px;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    margin: 30px auto 80px auto;
+}
+
+.contact-submit:hover{
+    background-color: #ff7c18;
+
+}
+
+/* footer -------------------------------------------- */
+footer{
+    height: 100px;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-media i{
+    color: #cccccc;
+    margin-left: 24px;
+}
+
+.footer-media i:hover{
+    color: #a1a1a1;
+
+}
+
+footer p{
+    padding-top: 8px;
+    font-size: 12px;
+    color: #cccccc98;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
