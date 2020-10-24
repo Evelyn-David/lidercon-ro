@@ -1,7 +1,10 @@
 /* navigation -------------------------------------------- */
 nav{
-    background-color: #000000;
+    background-color: #000000ce;
     height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 nav .nav-logo{
@@ -42,7 +45,6 @@ nav .nav-items a:hover{
 header{
     background: url('../img/bgHeader.jpg');
     background-attachment: fixed;
-
     width: 100%;
     height: 640px;
     background-position: center; 
@@ -195,55 +197,6 @@ button{
     text-align: center;
 }
 
-/* social media -------------------------------------------- */
-.social-media{
-    font-family: "Open Sans";
-    box-shadow: 0px 1px 3px #00000054;
-}
-
-.social-media-text{
-    width: 30%;
-}
-
-.social-media-img{
-    width: 70%;
-}
-
-.social-media-text h1{
-    font-size: 20px;
-    color: #333333;
-    font-weight: 700;
-    margin-top: 22px;
-    margin-bottom: 6px;
-}
-
-.social-media-text h2{
-    font-size: 14px;
-    line-height: 20px;
-    color: #86878b;
-    font-weight: 400;
-    padding-bottom: 10px;
-}
-
-.social-media-img{
-    float: right;
-    margin-top: 30px;
-    text-align: end;
-}
-
-.social-media-img i{
-    color: #cccccc;
-    font-size: 46px;
-}
-
-.social-media-img a i.img-left{
-    margin-left: 46px;
-}
-
-.social-media-img i:hover{
-    color: rgb(107, 107, 107);
-}
-
 
 /* feature 1 -------------------------------------------- */
 
@@ -280,7 +233,7 @@ button{
     font-weight: 700;
     text-align: center;
     padding: 46px 0px;
-    margin: 0px 100px 1px 0px !important;
+    margin: 0px 100px 1px 0px;
     width: 110px;
 }
 
@@ -330,6 +283,7 @@ button{
 }
 
 /* feature 2 -------------------------------------------- */
+
 .f-2 .f-img,
 .f-2 .f-text{
     display: inline;
@@ -352,7 +306,7 @@ button{
 }
 
 .f-2 .f-text h1{
-    padding-bottom: 30px;
+    padding: 30px 0 50px 0;
     margin-bottom: 0px;
 }
 
@@ -425,8 +379,9 @@ button{
 /* Why this is awsome -------------------------------------------- */
 .why{
     text-align: center;
-    margin-top: 110px;
     font-family: "Open Sans";
+    padding: 100px 0 !important;
+
 }
 
 .section-header h1{
