@@ -3,28 +3,6 @@
         display: none;
     }
 
-    /* social media */
-    .social-media-img a i.img-left{
-        margin-left: 36px;
-    }
-
-    .social-media-text h1{
-        margin-top: 42px;
-    }
-
-    .social-media-img{
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .social-media-text{
-        width: 20%;
-    }
-    
-    .social-media-img{
-        width: 80%;
-    }
-
     /* feature 1 */
     .f-1 .f-tabs,
     .f-1 .f-text{
@@ -107,7 +85,7 @@
 @media only screen and (max-width: 992px) {
     /* navigation -------------------------------------------- */
     nav{
-        background-color: #000000;
+        background-color: #000000cb;
         height: 70px;
         position: fixed;
         top: 0;
@@ -125,6 +103,7 @@
 
     /* header left-side --------------------------------------------*/
     header{
+        margin-top: 70px;
         height: 500px;
         position: relative;
     }
@@ -184,7 +163,7 @@
     }
 
     .f-3 .f-img{
-        margin-top: 30px;
+        margin: 30px auto 0 auto;
         width: 480px;
         height: 320px;
     }
@@ -224,22 +203,47 @@
 
 @media only screen and (max-width: 768px) {
 
+    /* feature 1 ----------------- */
+    .f-1 .f-tabs .tab{
+        margin: 0px 1px 30px 0px;
+        padding: 20px 20px;
+        width: 100px;
+        display: inline;
+        width: 100%;
+    }
+
+    .f-1 .f-text{
+        float: none;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .content-wrap .feat-title{
+        margin-top: 40px;
+        font-size: 24px !important;
+    }
+
+    .feat-body{
+        font-size: 16px !important;
+    }
+
+    .f-1 .f-tabs{
+        float: none !important;
+    }
+
+    
+    /* feature 3 ----------------- */
+    .f-3 .f-img{
+        margin: 30px auto 0 auto;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 576px) {
-    /* testimonials -------------------------------------------- */
-    
-    .t-grid{
-        display: grid;
-        grid-template-columns: 1fr;
-        row-gap: 40px;
-        font-family: "Open Sans";
-        text-align: left;
+    /* hide on mobile ----------------- */
+    .hide-mobile{
+        display: none !important;
     }
 
-    .testimony p{
-        padding: 20px 14px 24px;
-        margin-bottom: 10px;
-        border-radius: 4px;
-    }
+    /* revizia tehnica -------------- */
 }
